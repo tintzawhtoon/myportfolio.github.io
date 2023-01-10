@@ -1,0 +1,30 @@
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+/* input:focus {
+    border: 1px solid black;
+} */
+
+@media (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+}

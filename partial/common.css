@@ -1,0 +1,56 @@
+.first-btn {
+    background-color: var(--primary-color);
+    border: 0.2rem solid rgb(32, 32, 32);
+    font-family: var(--btn-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(32  , 32, 32);
+    transition: ease-out 0.5s;
+    
+}
+
+.first-btn:hover {
+    background-color: rgb(32, 32, 32);
+    color: var(--primary-color);
+}
+
+.second-btn {
+    background-color: rgb(32, 32, 32);
+    border: 0.2rem solid rgb(32, 32, 32);
+    font-family: var(--btn-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    transition: ease-out 0.5s;
+}
+.second-btn:hover {
+    background-color: var(--primary-color);
+    color: rgb(32  , 32, 32);
+}
+.title {
+    font-size: 3.9rem;
+    font-family: var(--primary-font);
+}
+.sub-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.body-text {
+    font-family: var(--btn-font);
+    font-size: 1.5rem;
+}
+.text-poppin {
+    font-family: var(--primary-font);
+}
+.text-align-left {
+    text-align: right !important;
+}
+.input-custom {
+    border: 0.2rem solid rgba(0, 0, 0,0.7);
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+}
+.input-custom:focus {
+    outline: 0.1rem solid rgba(0, 0, 0,0.7) !important;
+}
