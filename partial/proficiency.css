@@ -1,0 +1,55 @@
+.proficiency {
+    font-family: var(--primary-font);
+    margin-top: 10rem;
+}
+.proficiency a {
+    text-decoration: none;
+    color: #000;
+}
+
+.proficiency-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 3rem;
+    
+}
+.proficiency-box {
+    background-color: #fff;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.proficiency-box:hover {
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.7);
+}
+.pro-left {
+    width: 30%;
+    overflow: hidden;
+    object-position: center;
+    text-align: center;
+}
+.pro-left img {
+    width: 11rem;
+    height: 11rem;
+}
+.pro-right {
+    width: 67%;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .proficiency {
+        margin-left: 10%;
+    }
+    .proficiency-box-container {
+        grid-template-columns: 1fr;
+    }
+    .proficiency-box {
+        width: 100%;
+    }
+}

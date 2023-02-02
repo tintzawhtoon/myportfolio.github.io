@@ -1,0 +1,24 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("partial/variables.css");
+@import url("partial/global.css");
+@import url("partial/common.css");
+@import url("partial/header.css");
+@import url("partial/banner.css");
+@import url("partial/proficiency.css");
+@import url("partial/portfolio.css");
+@import url("partial/about.css");
+@import url("partial/skills.css");
+@import url("partial/experience.css");
+@import url("partial/blog.css");
+@import url("partial/services.css");
+@import url("partial/contact.css");
+@import url("partial/footer.css");
+
+
+/*     font-family: 'Courier Prime', monospace;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Poppins', sans-serif; */
