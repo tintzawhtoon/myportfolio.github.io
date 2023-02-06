@@ -37,5 +37,5 @@ window.addEventListener("load", () => {
 });
 
 
-const date = document.getElementById("#date");
+const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
