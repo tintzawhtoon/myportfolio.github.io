@@ -35,3 +35,7 @@ function customise() {
 window.addEventListener("load", () => {
     customise();
 });
+
+
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
